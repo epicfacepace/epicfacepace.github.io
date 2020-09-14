@@ -30,8 +30,8 @@ body {
 }
 
 .bar {
-    padding-left: 20px;
-    padding-right: 20px;;
+    padding-left: 40px;
+    padding-right: 40px;;
     background-color: #151515;
     border-color: #ffdb8d;
     border-width: 2px;
@@ -138,4 +138,8 @@ a:link {
 a:hover {
     color: #ffdb8d;
     text-decoration: none;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
 }
